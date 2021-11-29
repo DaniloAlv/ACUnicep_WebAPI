@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ACUnicep.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AtividadesComplementaresController.GetAtividadesComplementares(System.String)">
+            <summary>
+            Retorna lista de atividades que o aluno já submeteu
+            </summary>
+            <param name="cdUsuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AtividadesComplementaresController.GetAtividadeComplementar(System.Guid)">
+            <summary>
+            Retorna atividade especificada pelo ID da atividade
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AtividadesComplementaresController.CadastrarAtividadeComplementar(ACUnicep.Domain.ViewModels.AtividadeComplementarRequest)">
+            <summary>
+            Cadastra uma nova atividade complementar para o aluno
+            </summary>
+            <param name="atividadeComplementar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AtividadesComplementaresController.AtualizarAtividadeComplementar(System.Guid,ACUnicep.Domain.ViewModels.AtividadeComplementarRequest)">
+            <summary>
+            Atualiza informações de uma atividade já existente
+            </summary>
+            <param name="id"></param>
+            <param name="atividadeComplementar"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AuthController.Register(ACUnicep.WebAPI.DTO.RegisterDTO)">
+            <summary>
+            Realiza o cadastro de um usuário no sistema
+            </summary>
+            <param name="register"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ACUnicep.WebAPI.V1.Controllers.AuthController.Login(ACUnicep.WebAPI.DTO.LoginDTO)">
+            <summary>
+            Método para realizar login no sistema, mediante a um cadastro prévio
+            </summary>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
